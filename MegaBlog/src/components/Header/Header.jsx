@@ -38,7 +38,7 @@ function Header() {
     ]
 
     return (
-        <header className='py-3 shadow bg-gray-500'>
+        <header className='py-3 shadow bg-slate-800 '>
             <Container>
                 <nav className='flex'>
                     <div className='mr-4'>
@@ -46,7 +46,7 @@ function Header() {
                             <Logo width='70px' />
                         </Link>
                     </div>
-                    <ul className='flex ml-auto'>
+                    <ul className='flex ml-auto items-center justify-center text-white'>
                         {navItems.map((item) =>
                             item.active ? (
                                 <li key={item.name}>
